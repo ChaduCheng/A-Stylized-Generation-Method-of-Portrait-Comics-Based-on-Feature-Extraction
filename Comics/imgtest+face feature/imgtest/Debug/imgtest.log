@@ -1,0 +1,57 @@
+﻿生成启动时间为 2017/6/9 10:25:54。
+     1>项目“C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\imgtest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\imgtest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\software\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp vjfacedetect.cpp
+         vjfacedetect.cpp
+     1>d:\opencv2.49\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\vjfacedetect.cpp(91): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\vjfacedetect.cpp(92): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\vjfacedetect.cpp(93): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\vjfacedetect.cpp(94): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\vjfacedetect.cpp(117): warning C4101: “d”: 未引用的局部变量
+         main.cpp
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\mymethod.h(402): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\mymethod.h(403): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\mymethod.h(452): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\mymethod.h(453): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(103): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(103): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(155): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(155): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(204): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(205): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(207): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(208): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(216): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(217): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(221): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(227): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(241): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\9020win764z\desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\main.cpp(355): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\imgtest.exe.embed.manifest.res" Debug\imgtest_manifest.rc 
+       Link:
+         D:\software\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\Debug\imgtest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\imgtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\Debug\imgtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\Debug\imgtest.lib" /MACHINE:X86 Debug\imgtest.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\vjfacedetect.obj
+         LINK : 缺少程序数据库 C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\Debug\imgtest.pdb；正在执行完全链接
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\imgtest.exe.embed.manifest" /manifest Debug\imgtest.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\imgtest.exe.embed.manifest.res" Debug\imgtest_manifest.rc 
+       LinkEmbedManifest:
+         D:\software\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\Debug\imgtest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\imgtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\Debug\imgtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\Debug\imgtest.lib" /MACHINE:X86 Debug\imgtest.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\vjfacedetect.obj
+         imgtest.vcxproj -> C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\Debug\imgtest.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\imgtest.unsuccessfulbuild”。
+         正在对“Debug\imgtest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\9020win764z\Desktop\新建文件夹\人脸\imgtest+脸型选择\imgtest\imgtest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.28

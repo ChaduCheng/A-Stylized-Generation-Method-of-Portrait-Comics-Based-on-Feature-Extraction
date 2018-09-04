@@ -1,0 +1,71 @@
+for(j=0;j<14;j++)
+	{
+		float x1 = shape[j].x;
+		float y1 = shape[j].y;
+
+		CvPoint p1;
+		p1.x = cvRound(x1);
+		p1.y = cvRound(y1);
+
+		float x2 = shape[j+1].x;
+		float y2 = shape[j+1].y;
+
+		CvPoint p2;
+		p2.x = cvRound(x2);
+		p2.y = cvRound(y2);
+
+		cvLine(image,p1,p2,CV_RGB(0,255,0));
+
+
+		cvCircle( image, p1 ,1 , CV_RGB(255,0,0),2 );	
+		if(j==13)
+		{
+			cvCircle( image, p2 ,1 , CV_RGB(255,0,0),2 );	
+		}
+	}
+
+	for(j=27;j<=30;j++)
+	{
+		float x = shape[j].x;
+		float y = shape[j].y;
+				
+		CvPoint centerpoint;
+		centerpoint.x = cvRound(x);
+		centerpoint.y = cvRound(y);
+		if(j==27 || j==29)
+		cvCircle( image, centerpoint ,1 , CV_RGB(255,255,0),1 );	
+	}
+
+	for(j=32;j<=35;j++)
+	{
+		float x = shape[j].x;
+		float y = shape[j].y;
+				
+		CvPoint centerpoint;
+		centerpoint.x = cvRound(x);
+		centerpoint.y = cvRound(y);
+		if(j==32 || j==34)
+		cvCircle( image, centerpoint ,1 , CV_RGB(255,255,0),1 );	
+	}
+
+	for(j=37;j<=45;j++)
+	{
+		float x = shape[j].x;
+		float y = shape[j].y;
+				
+		CvPoint centerpoint;
+		centerpoint.x = cvRound(x);
+		centerpoint.y = cvRound(y);
+		cvCircle( image, centerpoint ,1 , CV_RGB(0,255,255),1 );	
+	}
+
+	for(j=48;j<=59;j++)
+	{
+		float x = shape[j].x;
+		float y = shape[j].y;
+				
+		CvPoint centerpoint;
+		centerpoint.x = cvRound(x);
+		centerpoint.y = cvRound(y);
+		cvCircle( image, centerpoint ,1 , CV_RGB(0,0,255),1 );	
+	}
